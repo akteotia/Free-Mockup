@@ -23,20 +23,21 @@ export const Posts = ( props ) => {
 
 		setLoading( true );
 
-		axios.get( `${ wordPressSiteURL }/wp-json/rae/v1/posts?page_no=${ currentPage }` )
+		axios.get( `${ wordPressSiteURL }/wp-json/wp/v2/posts/?page_no=${ currentPage }` )
 			.then( res => {
+             console.log(res);
+				setLoading( true );
 
-				setLoading( false );
-
-				if ( 200 === res.data.status ) {
+				if ( 200 === res.status ) {
 					setPosts( res.data.posts_data );
-					setTotalPages( res.data.page_count )
+					setTotalPages( res.headers["x-wp-totalpages"] );
+					console.log(posts);
 				} else {
 					setError( 'No posts found' );
 				}
 			} )
 			.catch( err => {
-				setError( err.response.data.message );
+				setError( err.response.message );
 			} );
 
 	}, [currentPage] );
