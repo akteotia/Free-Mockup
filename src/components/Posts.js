@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import clientConfig from "../client-config";
 import axios from "axios";
-import Loader from "./layouts/Loader";
+//import Loader from "./layouts/Loader";
 import { Post } from "./layouts/Post";
 import { Pagination } from "./layouts/Pagination";
 import PostLoader from "./layouts/PostLoader";
