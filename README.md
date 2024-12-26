@@ -8,7 +8,8 @@ https://www.eymockup.com/
 
 https://freepsdmock-up.com/
 
-https://www.photoshopvideotutorial.com/
+- [Freebies Mockups](https://www.freebiesmockup.com/) — Download free popular graphic offered by Freebies Mockup can be used for personal and commercial purposes so you can include it in your clients' presentations.
+- [PSD Free Mockups](https://www.photoshopvideotutorial.com/) — Using a freebies Photoshop PSD mockups is a great way to showcase your design in a professional and realistic way. It is also a great way to save money.
 
 https://99effect.com/
 
